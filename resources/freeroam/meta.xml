@@ -1,5 +1,5 @@
 <meta>
 	<script src="Config.nut" />
-	<script src="Commands.nut" />
 	<script src="Main.nut" />
+	<script src="Vehicles.nut" />
 </meta>
