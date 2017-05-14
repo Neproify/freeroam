@@ -2,4 +2,6 @@
 	<script src="Config.nut" />
 	<script src="Main.nut" />
 	<script src="Vehicles.nut" />
+	<script src="Weapons.nut" />
+	<script src="Help.nut" />
 </meta>

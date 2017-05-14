@@ -3,7 +3,10 @@ function createVehicleCMD(input, player)
 	local args = split(input, " ");
 	local argsCount = args.len();
 	if(argsCount < 2)
+	{
+		player.sendMessage("Use: /createvehicle [id]", COLOR_RED, false);
 		return;
+	}
 
 	local vehModel = args[1].tointeger();
 
